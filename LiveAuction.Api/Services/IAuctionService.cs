@@ -1,4 +1,16 @@
+// using LiveAuction.Api.Models;
 
+// namespace LiveAuction.Api.Services;
+
+// public interface IAuctionService
+// {
+//     Task<IEnumerable<Auction>> GetAllAuctionsAsync();
+//     Task<Auction?> GetAuctionByIdAsync(int id);
+//     Task<bool> PlaceBidAsync(int auctionId, int userId, decimal amount);
+//     Task CloseExpiredAuctionsAsync();
+// }
+
+using LiveAuction.Api.Models;
 
 namespace LiveAuction.Api.Services;
 

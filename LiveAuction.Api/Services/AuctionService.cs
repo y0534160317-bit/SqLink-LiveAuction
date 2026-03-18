@@ -27,7 +27,6 @@
 //             .ToListAsync();
 //     }
 
-//     // שליפת מכירה ספציפית כולל היסטוריית הצעות
 //     public async Task<Auction?> GetAuctionByIdAsync(int id)
 //     {
 //         return await _context.Auctions
@@ -79,7 +78,6 @@
 
 //             _context.Bids.Add(bid);
 
-//             // שמירה לבסיס הנתונים - כאן תיזרק שגיאה אם מישהו הקדים אותנו (Concurrency)
 //             await _context. ();
 //             await transaction.CommitAsync();
 
@@ -107,7 +105,6 @@
 //         }
 //     }
 
-//     // פונקציה לסגירת מכירות שפג תוקפן (עבור ה-Background Service)
 //     public async Task CloseExpiredAuctionsAsync()
 //     {
 //         var now = DateTime.UtcNow;
